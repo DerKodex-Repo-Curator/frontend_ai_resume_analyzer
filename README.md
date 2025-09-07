@@ -1,16 +1,45 @@
-# ai_resume_app
+AI-Powered Resume Analyzer
 
-A new Flutter project.
+The AI-Powered Resume Analyzer is a project that helps job seekers improve their resumes by providing real-time, constructive feedback. It identifies strengths, highlights mistakes, and suggests improvements in a clear and balanced way.
 
-## Getting Started
+Overview
 
-This project is a starting point for a Flutter application.
+Backend (Python / FastAPI)
 
-A few resources to get you started if this is your first Flutter project:
+Integrated with the Ollama Llama-3 model for AI-driven resume feedback
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Extracts text from PDF files (using PyPDF2)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Extracts text from DOCX files (using python-docx)
+
+Accepts resumes as plain text input
+
+Provides streaming responses for a live, interactive experience
+
+Frontend (Flutter)
+
+Upload and analyze resumes directly in PDF and DOCX formats
+
+Paste or type resume text for instant AI analysis
+
+Displays AI feedback in real time with a smooth, interactive interface
+
+Key Features
+
+Multi-format resume support: Text, PDF, DOCX
+
+AI-powered suggestions to improve clarity, grammar, and presentation
+
+Streaming feedback that feels like a live chat
+
+Mobile-friendly design with seamless integration between frontend and backend
+
+Project Goal
+
+The goal of this project is to combine AI technology with mobile development to create a simple, effective, and user-friendly resume coach. It allows users to quickly evaluate their resumes, understand areas of improvement, and make adjustments to increase their chances of success in job applications.
+
+Source Code
+
+Backend: Python (FastAPI, Ollama integration)
+
+Frontend: Flutter
